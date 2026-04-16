@@ -1,0 +1,47 @@
+{
+  "devices": {
+    "temperature": {
+      "id": "temp_001",
+      "name": "Temperature Sensor",
+      "unit": "°C",
+      "min": 20,
+      "max": 100,
+      "thresholds": {
+        "warning": 75,
+        "critical": 90
+      },
+      "updateInterval": 1000,
+      "faultProbability": 0.05
+    },
+    "pressure": {
+      "id": "pres_001",
+      "name": "Pressure Sensor",
+      "unit": "bar",
+      "min": 0,
+      "max": 10,
+      "thresholds": {
+        "warning": 7,
+        "critical": 9
+      },
+      "updateInterval": 1200,
+      "faultProbability": 0.03
+    },
+    "voltage": {
+      "id": "volt_001",
+      "name": "Voltage Sensor",
+      "unit": "V",
+      "min": 210,
+      "max": 250,
+      "thresholds": {
+        "warning": 240,
+        "critical": 245
+      },
+      "updateInterval": 800,
+      "faultProbability": 0.02
+    }
+  },
+  "opcua": {
+    "port": 4334,
+    "endpoint": "opc.tcp://localhost:4334/UA/IndustrialServer"
+  }
+}

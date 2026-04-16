@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-mono: 'Consolas', 'Monaco', monospace;
+  
+  --color-bg: #f4f5f7;
+  --color-card-bg: #ffffff;
+  --color-sidebar-bg: #1a1c24;
+  --color-text-main: #2d3436;
+  --color-text-muted: #636e72;
+  --color-primary: #0984e3;
+  --color-success: #00b894;
+  --color-warning: #fdcb6e;
+  --color-critical: #d63031;
+  --color-border: #dfe6e9;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text-main font-sans;
+  }
+}

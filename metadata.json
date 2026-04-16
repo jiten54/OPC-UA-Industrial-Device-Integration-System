@@ -1,0 +1,6 @@
+{
+  "name": "OPC-UA Device Integration & Monitoring System",
+  "description": "A production-grade industrial control system demonstrating real-world system integration using OPC-UA protocol with real-time monitoring, anomaly detection, and a Streamlit dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
