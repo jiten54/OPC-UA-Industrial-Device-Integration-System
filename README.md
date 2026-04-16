@@ -1,10 +1,11 @@
-# ⚙️ OPC-UA Device Integration & Monitoring System
+<img width="1906" height="864" alt="Screenshot 2026-04-16 080827" src="https://github.com/user-attachments/assets/ede7bc9b-c6ec-4ce9-83d1-0345f33fa87b" /># ⚙️ OPC-UA Device Integration & Monitoring System
 <img width="1913" height="866" alt="Screenshot 2026-04-16 080748" src="https://github.com/user-attachments/assets/6b880002-18bb-4b4a-8fa7-6a4a7536209f" />
-![Uploading Screenshot 2026-04-16 080827.png…]()
+
 
 > A production-grade industrial control system demonstrating real-time device integration, OPC-UA communication, anomaly detection, and live monitoring.
 
 ---
+
 
 ## 🚀 Overview
 
